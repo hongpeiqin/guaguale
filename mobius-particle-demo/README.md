@@ -2,6 +2,14 @@
 
 一个无需构建步骤的 Three.js 3D 粒子特效：粒子沿莫比乌斯带上的闭合轨迹持续流动，并带有透明曲面、单边界辉光、彗星节点、星空和 Bloom 后期效果。
 
+## 在线预览
+
+- [打开 3D 粒子演示](https://rawcdn.githack.com/hongpeiqin/guaguale/18ce3b9f8750eaa1d3dafb84b1083a7a08e8ed9f/mobius-particle-demo/index.html)
+- [查看源码分支](https://github.com/hongpeiqin/guaguale/tree/mobius-particle-demo/mobius-particle-demo)
+- [查看 Draft PR](https://github.com/hongpeiqin/guaguale/pull/1)
+
+> 在线预览固定到提交 `18ce3b9f8750eaa1d3dafb84b1083a7a08e8ed9f`，因此不会因为分支后续修改而悄悄变样。互联网终于有一次肯把东西钉死在具体版本上。
+
 ## 功能
 
 - GPU 顶点着色器计算粒子位置，5200 个主粒子 + 1100 个空间尘埃
